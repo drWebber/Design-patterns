@@ -18,6 +18,7 @@ public class Main {
         executables.add(new FactoryMethod());
         executables.add(new Prototype());
         executables.add(new Adapter());
+        executables.add(new Decorator());
 
         for (Executable executable : executables) {
             executable.execute();
